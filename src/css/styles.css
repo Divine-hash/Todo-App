@@ -1,5 +1,35 @@
 /*
 =============================================
+  VARIABLES
+=============================================
+*/
+
+:root {
+  /* Primary Colors */
+  --primary-blue: hsl(220, 98%, 61%);
+  --primary-check-background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+  /* Light Theme */
+  --lh-grayish-blue-500: hsl(235, 19%, 35%);
+  --lh-grayish-blue-400: hsl(236, 9%, 61%);
+  --lh-grayish-blue-300: hsl(233, 11%, 84%);
+  --lh-grayish-blue-200: hsl(236, 33%, 92%);
+  --lh-grayish-blue-100: hsl(0, 0%, 98%);
+
+  /* Dark Theme */
+  --dk-dark-blue: hsl(235, 21%, 11%);
+  --dk-desaturated-blue: hsl(235, 24%, 19%);
+  --dk-grayish-blue-500: hsl(237, 14%, 26%);
+  --dk-grayish-blue-400: hsl(233, 14%, 35%);
+  --dk-grayish-blue-300: hsl(234, 11%, 52%);
+  --dk-grayish-blue-200: hsl(234, 39%, 85%);
+  --dk-grayish-blue-100: hsl(236, 33%, 92%);
+}
+
+
+
+/*
+=============================================
   CSS RESETS
 =============================================
 */
