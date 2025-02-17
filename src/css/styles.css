@@ -1,3 +1,39 @@
+/*
+=============================================
+  CSS RESETS
+=============================================
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
 body {
-  background-color: red;
+  line-height: 1.5;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+:where(p, h1, h2, h3, h4, h5, h6) {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  text-wrap: balance; /* Tries to make each line of text roughly the same length */
+}
+
+p {
+  text-wrap: pretty; /* Makes the final line of text have at least two words */
 }
