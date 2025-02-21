@@ -99,3 +99,18 @@ input, button, textarea, select {
 p {
   text-wrap: pretty; /* Makes the final line of text have at least two words */
 }
+
+
+
+
+
+
+/*
+=============================================
+  BASE STYLES
+=============================================
+*/
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
